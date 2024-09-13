@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: inter;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: 600px;
+    width: 300px;
+    background-color: #ffebcd;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 23px;
+    color: #1c1b1b;
+    margin-top: 20%;
+  }
+  #prompt-question {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  button {
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #f89f18;
+  }
+  #scores {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+  #player--score {
+    background-color: #ffffff;
+    color: #f89f18;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  #computer--score {
+    background-color: #ffffff;
+    color: #f89f18;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .result {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 30px;
+    color: #000000;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  #final-result {
+    text-align: center;
+  }
+  #reset {
+    height: 40px;
+    width: 80px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: inter;
+  }
+  
